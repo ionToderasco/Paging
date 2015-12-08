@@ -18,7 +18,7 @@ class PageSliderViewController: UIViewController, UIPageViewControllerDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.imageTitle = NSArray(objects: "Natura pic1", "titlu2")
+        self.imageTitle = NSArray(objects: "titlu1", "titlu2")
         self.imageContent = NSArray(objects: "nature_pic_3", "nature_pic_4")
         
         //self.pageViewController = UIPageViewController()
