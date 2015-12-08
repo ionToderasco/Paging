@@ -24,17 +24,7 @@ class MainPage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forRow: 14, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.None, animated: false)
-        
-        //self.collectionView.pagingEnabled = true
     }
-    
-//    override func viewDidAppear(animated: Bool) {
-//        super.viewDidAppear(animated)
-//        
-//        self.collectionView.reloadData()
-//    }
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20
