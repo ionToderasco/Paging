@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PageItemViewController" customModule="testgallery" customModuleProvider="target">
+            <connections>
+                <outlet property="imageTitleLabel" destination="Fva-UF-wFY" id="kMC-3z-vaa"/>
+                <outlet property="imageView" destination="ksc-15-Ffp" id="b5i-T1-v21"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature_pic_3" translatesAutoresizingMaskIntoConstraints="NO" id="ksc-15-Ffp">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fva-UF-wFY">
+                    <rect key="frame" x="0.0" y="538" width="320" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Uik-oM-sQG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ksc-15-Ffp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0j2-Og-DY1"/>
+                <constraint firstAttribute="trailing" secondItem="ksc-15-Ffp" secondAttribute="trailing" id="4qT-32-ME5"/>
+                <constraint firstAttribute="trailing" secondItem="Fva-UF-wFY" secondAttribute="trailing" id="DYt-YF-9Bq"/>
+                <constraint firstItem="ksc-15-Ffp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="I85-Iz-V5J"/>
+                <constraint firstItem="Fva-UF-wFY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KTL-Aw-BSV"/>
+                <constraint firstAttribute="bottom" secondItem="Fva-UF-wFY" secondAttribute="bottom" id="Yfm-1M-ziD"/>
+                <constraint firstAttribute="bottom" secondItem="ksc-15-Ffp" secondAttribute="bottom" id="uOc-Sv-wE3"/>
+            </constraints>
+            <point key="canvasLocation" x="564" y="693"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nature_pic_3" width="600" height="400"/>
+    </resources>
+</document>
